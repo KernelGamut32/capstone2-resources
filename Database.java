@@ -1,10 +1,23 @@
-package com.amfam.reskill.capstone;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Database {
     public static List<InsurancePolicy> policies = new ArrayList<>();
+
+    /*
+        InsurancePolicy structure includes:
+            - id (Integer)
+            - policyNumber (String)
+            - insuredLastName (String)
+            - premiumAmount (Double)
+            - ArrayList of Claims
+
+        InsuranceClaim structure includes:
+            - id (Integer)
+            - claimNumber (String)
+            - isPaid (Boolean)
+            - amount (Double)
+    */
 
     public static void loadData() {
         InsurancePolicy policy1 = new InsurancePolicy(1, "888AAA", "Robertson", 168.47);
