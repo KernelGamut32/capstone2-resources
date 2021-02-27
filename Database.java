@@ -22,7 +22,7 @@ public class Database {
     public static void loadData() {
         InsurancePolicy policy1 = new InsurancePolicy(1, "888AAA", "Robertson", 168.47);
         InsuranceClaim policy1Claim1 = new InsuranceClaim(1, "CLM123", false, 1500.00);
-        InsuranceClaim policy1Claim2 = new InsuranceClaim(2, "CLM222", true, 2497.68);
+        InsuranceClaim policy1Claim2 = new InsuranceClaim(2, "CLM222", false, 2497.68);
         policy1.getClaims().add(policy1Claim1);
         policy1.getClaims().add(policy1Claim2);
         policies.add(policy1);
