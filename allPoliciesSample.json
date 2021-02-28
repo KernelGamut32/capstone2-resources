@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "policyNumber": "888AAA",
+        "insuredLastName": "Robertson",
+        "annualPremium": 168.47,
+        "claims": [
+            {
+                "id": 1,
+                "claimNumber": "CLM123",
+                "isPaid": false,
+                "amount": 1500.0
+            },
+            {
+                "id": 2,
+                "claimNumber": "CLM222",
+                "isPaid": false,
+                "amount": 2497.68
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "policyNumber": "807DDI",
+        "insuredLastName": "Testing",
+        "annualPremium": 269.8,
+        "claims": [
+            {
+                "id": 3,
+                "claimNumber": "CLM444",
+                "isPaid": true,
+                "amount": 8433.11
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "policyNumber": "777AAB",
+        "insuredLastName": "Schmoe",
+        "annualPremium": 467.89,
+        "claims": [
+            {
+                "id": 4,
+                "claimNumber": "CLM001",
+                "isPaid": false,
+                "amount": 799.0
+            },
+            {
+                "id": 5,
+                "claimNumber": "CLM002",
+                "isPaid": true,
+                "amount": 4877.44
+            },
+            {
+                "id": 6,
+                "claimNumber": "CLM003",
+                "isPaid": true,
+                "amount": 2501.01
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "policyNumber": "900AEF",
+        "insuredLastName": "Williamson",
+        "annualPremium": 100.23,
+        "claims": []
+    }
+]

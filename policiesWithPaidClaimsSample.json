@@ -1,0 +1,42 @@
+[
+    {
+        "id": 2,
+        "policyNumber": "807DDI",
+        "insuredLastName": "Testing",
+        "annualPremium": 269.8,
+        "claims": [
+            {
+                "id": 3,
+                "claimNumber": "CLM444",
+                "isPaid": true,
+                "amount": 8433.11
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "policyNumber": "777AAB",
+        "insuredLastName": "Schmoe",
+        "annualPremium": 467.89,
+        "claims": [
+            {
+                "id": 4,
+                "claimNumber": "CLM001",
+                "isPaid": false,
+                "amount": 799.0
+            },
+            {
+                "id": 5,
+                "claimNumber": "CLM002",
+                "isPaid": true,
+                "amount": 4877.44
+            },
+            {
+                "id": 6,
+                "claimNumber": "CLM003",
+                "isPaid": true,
+                "amount": 2501.01
+            }
+        ]
+    }
+]

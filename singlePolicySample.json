@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "policyNumber": "888AAA",
+    "insuredLastName": "Robertson",
+    "annualPremium": 168.47,
+    "claims": [
+        {
+            "id": 1,
+            "claimNumber": "CLM123",
+            "isPaid": false,
+            "amount": 1500.0
+        },
+        {
+            "id": 2,
+            "claimNumber": "CLM222",
+            "isPaid": false,
+            "amount": 2497.68
+        }
+    ]
+}
