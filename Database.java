@@ -9,7 +9,7 @@ public class Database {
             - id (Integer)
             - policyNumber (String)
             - insuredLastName (String)
-            - premiumAmount (Double)
+            - annualPremium (Double)
             - ArrayList of Claims
 
         InsuranceClaim structure includes:
