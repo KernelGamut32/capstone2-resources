@@ -36,9 +36,9 @@ public class Database {
         InsuranceClaim policy3Claim1 = new InsuranceClaim(4, "CLM001", false, 799.00);
         InsuranceClaim policy3Claim2 = new InsuranceClaim(5, "CLM002", true, 4877.44);
         InsuranceClaim policy3Claim3 = new InsuranceClaim(6, "CLM003", true, 2501.01);
-        policy1.getClaims().add(policy3Claim1);
-        policy1.getClaims().add(policy3Claim2);
-        policy1.getClaims().add(policy3Claim3);
+        policy3.getClaims().add(policy3Claim1);
+        policy3.getClaims().add(policy3Claim2);
+        policy3.getClaims().add(policy3Claim3);
         policies.add(policy3);
 
         InsurancePolicy policy4 = new InsurancePolicy(4, "900AEF", "Williamson", 100.23);
